@@ -70,7 +70,7 @@ img {
 	.hero-form {
 		padding: 10px 20px;
 	}
-	form {
+	.hero-form-group {
 		background-color: #ffffff;
 		padding: 10px 20px;
 		align-items: center;
@@ -180,6 +180,78 @@ img {
 	.testimonial-detail {
 		font-weight: 300;
 		font-family: 'Roboto Slab', serif;
+	}
+	.three-column-listing-title h3  {
+		font-family: 'Roboto', sans-serif;
+		/* font-weight: 700; */
+		padding: 20px 20px 0px 20px;
+	}
+	.three-column-listing-description {
+		font-size: 15px;
+		font-weight: 300;
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+	.three-column-features {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.features-box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.featured-image {
+		width: 550px;
+	}
+	.feature-title {
+		font-weight: 700;
+		font-size: 20px;
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+	.feature-stats {
+		font-size: 14px;
+		font-weight: 300;
+		font-family: 'Roboto Slab', serif;padding-bottom: 20px;
+	}
+	.feature-description {
+		font-size: 14px;
+		font-weight: 400;
+		font-family: 'Roboto Slab', serif;
+		text-align: center;
+		padding: 0 40px 0 40px;
+		padding-bottom: 20px;
+	}
+	.learn-more {
+		color: #2295fe;
+		font-size: 14px;
+		padding-bottom: 40px;
+	}
+	section .contact,
+	.contact-form {
+		background-color: #4c4c4c;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.contact-form-group {
+		display: flex;
+		flex-direction: column;
+		align-items: left;
+	}
+	.contact-form-control {
+		padding: 5px 100px;
+	}
+	.contact-form-caption {
+		color: #ffffff;
+		text-align: center;
+		font-size: 25px;
+		font-weight: 700;
+		letter-spacing: 1.5px;
+		font-family: 'Roboto',  sans-serif;
+		padding-top: 40px;
 	}
  }
 
